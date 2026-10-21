@@ -1,12 +1,19 @@
-## Download
+## Install
 
-**[⬇ AppSweep.dmg](https://github.com/AliRazaviDeveloper/AppSweep/releases/latest/download/AppSweep.dmg)** — universal build for Apple Silicon & Intel, macOS 14 Sonoma or later.
+**One-line install (recommended)** — paste into Terminal:
 
-Open the DMG and drag **AppSweep** into **Applications**.
+```bash
+curl -fsSL https://raw.githubusercontent.com/AliRazaviDeveloper/AppSweep/main/install.sh | bash
+```
 
-> **First launch:** AppSweep is not yet notarized by Apple. If macOS says it can't verify the developer, open
-> **System Settings → Privacy & Security** and click **Open Anyway** — or run
-> `xattr -dr com.apple.quarantine /Applications/AppSweep.app` in Terminal.
+**Or download [AppSweep.dmg](https://github.com/AliRazaviDeveloper/AppSweep/releases/latest/download/AppSweep.dmg)** — universal build for Apple Silicon & Intel, macOS 14 or later.
+Drag **AppSweep** into **Applications**, then run once:
+
+```bash
+xattr -dr com.apple.quarantine /Applications/AppSweep.app
+```
+
+> AppSweep isn't notarized by Apple yet, so a browser-downloaded copy shows *"Apple could not verify…"* with a **Move to Trash** button. The command above (or **System Settings → Privacy & Security → Open Anyway**) lets it open. The one-line installer avoids the prompt entirely.
 
 ## What's inside
 

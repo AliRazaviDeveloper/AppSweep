@@ -46,11 +46,25 @@
 
 ## 📥 نصب
 
+### روش ۱ — نصب با یک دستور (پیشنهادی)
+
+این دستور را در **Terminal** اجرا کنید:
+
+</div>
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/AliRazaviDeveloper/AppSweep/main/install.sh | bash
+```
+
+<div dir="rtl">
+
+آخرین نسخه دانلود و در **Applications** نصب و اجرا می‌شود — بدون هیچ پیغام امنیتی.
+
+### روش ۲ — دانلود فایل DMG
+
 ۱. فایل **[AppSweep.dmg](https://github.com/AliRazaviDeveloper/AppSweep/releases/latest/download/AppSweep.dmg)** را دانلود کنید.<br>
 ۲. بازش کنید و **AppSweep** را داخل پوشه‌ی **Applications** بکشید.<br>
-۳. برنامه را اجرا کنید.
-
-**اگر macOS گفت نمی‌تواند توسعه‌دهنده را تأیید کند:** به **System Settings ← Privacy & Security** بروید و روی **Open Anyway** بزنید، یا این دستور را یک بار در ترمینال اجرا کنید:
+۳. این دستور را یک بار در ترمینال اجرا کنید و بعد برنامه را باز کنید:
 
 </div>
 
@@ -59,6 +73,8 @@ xattr -dr com.apple.quarantine /Applications/AppSweep.app
 ```
 
 <div dir="rtl">
+
+> چرا مرحله‌ی ۳ لازم است؟ AppSweep هنوز توسط اپل notarize نشده، برای همین وقتی از مرورگر دانلود شود macOS پیغام «Apple could not verify…» می‌دهد و گزینه‌ی **Move to Trash** را نشان می‌دهد. برنامه امن است و این دستور فقط علامت قرنطینه‌ی دانلود را برمی‌دارد. راه دیگر: روی **Done** بزنید، سپس در **System Settings ← Privacy & Security** روی **Open Anyway** کلیک کنید. روش ۱ اصلاً این مشکل را ندارد.
 
 **پیشنهاد:** برای اسکن کامل، در **System Settings ← Privacy & Security ← Full Disk Access** به AppSweep دسترسی بدهید.
 

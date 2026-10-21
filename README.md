@@ -76,23 +76,36 @@ clear caches, and find leftovers from apps you deleted long ago.
 
 ## 📥 Installation
 
+### Option 1 — One-line install (recommended)
+
+Paste this into **Terminal**:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/AliRazaviDeveloper/AppSweep/main/install.sh | bash
+```
+
+It downloads the latest release, installs it into **Applications** and opens it — no security prompts.
+
+### Option 2 — Download the DMG
+
 1. Download **[AppSweep.dmg](https://github.com/AliRazaviDeveloper/AppSweep/releases/latest/download/AppSweep.dmg)**.
 2. Open it and drag **AppSweep** into your **Applications** folder.
-3. Launch AppSweep.
-
-<details>
-<summary><b>macOS says it can't verify the developer?</b></summary>
-
-<br>
-
-AppSweep isn't notarized by Apple yet, so Gatekeeper asks for confirmation on first launch:
-
-- Open **System Settings → Privacy & Security**, scroll down and click **Open Anyway**, or
-- run this once in Terminal:
+3. Run this once in Terminal, then open AppSweep:
 
 ```bash
 xattr -dr com.apple.quarantine /Applications/AppSweep.app
 ```
+
+<details>
+<summary><b>Why is step 3 needed?</b></summary>
+
+<br>
+
+AppSweep isn't notarized by Apple yet, so when it's downloaded through a browser macOS shows
+*"Apple could not verify AppSweep…"* and offers **Move to Trash**. The app is safe — the command above
+simply removes the download quarantine flag. Alternatively, click **Done**, then open
+**System Settings → Privacy & Security** and click **Open Anyway**.
+The one-line installer avoids this entirely.
 
 </details>
 
