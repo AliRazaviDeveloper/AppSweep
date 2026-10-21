@@ -1,0 +1,112 @@
+/* Persian (Farsi) translation for AppSweep */
+
+"Application" = "برنامه";
+"Application Support" = "داده‌های برنامه";
+"Caches" = "کش‌ها";
+"Preferences" = "تنظیمات";
+"Containers" = "کانتینرها";
+"Group Containers" = "کانتینرهای گروهی";
+"Logs" = "لاگ‌ها";
+"Saved State" = "وضعیت ذخیره‌شده";
+"Web Data & Cookies" = "داده‌های وب و کوکی‌ها";
+"Launch Agents & Helpers" = "سرویس‌های پس‌زمینه";
+"Application Scripts" = "اسکریپت‌های برنامه";
+"Other" = "سایر";
+"App Caches" = "کش برنامه‌ها";
+"Developer Junk" = "فایل‌های اضافی توسعه‌دهنده";
+"Temporary data apps rebuild automatically." = "داده‌های موقتی که برنامه‌ها خودشان دوباره می‌سازند.";
+"Diagnostic logs written by apps." = "لاگ‌های عیب‌یابی که برنامه‌ها می‌نویسند.";
+"Xcode build data, simulator caches and package caches." = "داده‌های بیلد Xcode، کش شبیه‌ساز و کش پکیج‌ها.";
+
+"%@ was moved to the Trash · %@ freed" = "%1$@ به سطل زباله منتقل شد · %2$@ آزاد شد";
+"Removed %lld items · %@ freed" = "%1$lld مورد حذف شد · %2$@ آزاد شد";
+"%lld items couldn't be removed" = "%lld مورد حذف نشد";
+
+"Grant Full Disk Access for a complete scan" = "برای اسکن کامل، دسترسی کامل به دیسک بدهید";
+"Some app data (Containers, Mail, Safari…) is hidden from AppSweep until you allow it in System Settings." = "بخشی از داده‌ها (کانتینرها، Mail، Safari و…) تا وقتی در تنظیمات سیستم اجازه ندهید از AppSweep پنهان است.";
+"Open Settings" = "باز کردن تنظیمات";
+
+"Overview" = "نمای کلی";
+"Applications" = "برنامه‌ها";
+"Cache Cleaner" = "پاک‌سازی کش";
+"Leftovers" = "باقی‌مانده‌ها";
+"Uninstall & Clean" = "حذف و پاک‌سازی";
+"Macintosh HD" = "Macintosh HD";
+"%@ available" = "%@ فضای آزاد";
+
+"A quick look at what's taking up space on your Mac." = "نگاهی سریع به چیزهایی که فضای مک شما را گرفته‌اند.";
+"Rescan" = "اسکن دوباره";
+"%lld apps installed" = "%lld برنامه نصب شده";
+"Manage Apps" = "مدیریت برنامه‌ها";
+"Caches & Logs" = "کش و لاگ";
+"%lld items can be cleaned" = "%lld مورد قابل پاک‌سازی";
+"Clean Up" = "پاک‌سازی";
+"%lld uninstalled apps left files" = "فایل‌های جامانده از %lld برنامه‌ی حذف‌شده";
+"Review" = "بررسی";
+"used" = "استفاده‌شده";
+"Used" = "استفاده‌شده";
+"Available" = "آزاد";
+"Total" = "کل";
+"Largest Apps" = "بزرگ‌ترین برنامه‌ها";
+
+"Select an app" = "یک برنامه انتخاب کنید";
+"Pick an app from the list — or drag any app onto this window — to see everything it stores on your Mac." = "یک برنامه را از لیست انتخاب کنید — یا آن را روی این پنجره بکشید — تا همه‌ی فایل‌هایش را روی مک ببینید.";
+"Name" = "نام";
+"Size" = "حجم";
+"Last Used" = "آخرین استفاده";
+"Search apps" = "جستجوی برنامه‌ها";
+"Sort by" = "مرتب‌سازی بر اساس";
+"Finding your apps…" = "در حال پیدا کردن برنامه‌ها…";
+"%lld apps" = "%lld برنامه";
+"This app is part of macOS and can't be removed. You can still clean its data." = "این برنامه بخشی از macOS است و حذف نمی‌شود، اما می‌توانید داده‌هایش را پاک کنید.";
+"%lld items selected" = "%lld مورد انتخاب شده";
+"Uninstall" = "حذف برنامه";
+"Remove Selected Files" = "حذف فایل‌های انتخاب‌شده";
+"Uninstall %@?" = "«%@» حذف شود؟";
+"Remove the selected files?" = "فایل‌های انتخاب‌شده حذف شوند؟";
+"Move to Trash" = "انتقال به سطل زباله";
+"Remove Files" = "حذف فایل‌ها";
+"%lld items (%@) will be moved to the Trash. You can restore them from the Trash if needed." = "%1$lld مورد (%2$@) به سطل زباله منتقل می‌شود. در صورت نیاز می‌توانید از سطل زباله برگردانید.";
+"App Store" = "اپ استور";
+"Running" = "در حال اجرا";
+"System" = "سیستم";
+"Last opened %@" = "آخرین اجرا: %@";
+"App size" = "حجم برنامه";
+"Open" = "باز کردن";
+"Show in Finder" = "نمایش در Finder";
+"What will be removed" = "چه چیزهایی حذف می‌شوند";
+"Deselect All" = "لغو انتخاب همه";
+"Select All" = "انتخاب همه";
+"Searching for related files…" = "در حال جستجوی فایل‌های مرتبط…";
+"No related files found." = "فایل مرتبطی پیدا نشد.";
+
+"Free up space by removing data apps can safely rebuild." = "با حذف داده‌هایی که برنامه‌ها دوباره می‌سازند، فضا آزاد کنید.";
+"reclaimable" = "قابل آزادسازی";
+"Measuring caches…" = "در حال محاسبه‌ی کش‌ها…";
+"All clean" = "همه‌چیز تمیز است";
+"There are no caches worth cleaning right now." = "فعلاً کشی برای پاک کردن وجود ندارد.";
+"Delete permanently (skip Trash)" = "حذف دائمی (بدون سطل زباله)";
+"%lld selected · %@" = "%1$lld انتخاب‌شده · %2$@";
+"Clean" = "پاک‌سازی";
+"Clean %lld items?" = "%lld مورد پاک شود؟";
+"Delete Permanently" = "حذف دائمی";
+"%@ will be freed. Apps will recreate these caches when needed; quit open apps first for best results." = "%@ آزاد می‌شود. برنامه‌ها در صورت نیاز کش‌ها را دوباره می‌سازند؛ بهتر است اول برنامه‌های باز را ببندید.";
+
+"Files left behind by apps that are no longer installed." = "فایل‌هایی که از برنامه‌های حذف‌شده جا مانده‌اند.";
+"found" = "پیدا شد";
+"Review each item before removing — some files may belong to command-line tools or plug-ins." = "قبل از حذف هر مورد را بررسی کنید — بعضی فایل‌ها ممکن است مال ابزارهای خط فرمان یا افزونه‌ها باشند.";
+"Looking for leftovers…" = "در حال جستجوی باقی‌مانده‌ها…";
+"No leftovers" = "باقی‌مانده‌ای نیست";
+"We didn't find files from uninstalled apps." = "فایلی از برنامه‌های حذف‌شده پیدا نشد.";
+"Remove" = "حذف";
+"Remove leftovers of %lld apps?" = "باقی‌مانده‌های %lld برنامه حذف شود؟";
+"%@ will be moved to the Trash." = "%@ به سطل زباله منتقل می‌شود.";
+"%lld items" = "%lld مورد";
+
+"Scan" = "اسکن";
+"Rescan Everything" = "اسکن دوباره‌ی همه";
+"Language" = "زبان";
+"Restart AppSweep to apply the new language." = "برای اعمال زبان جدید، AppSweep را دوباره اجرا کنید.";
+"Restart Now" = "اجرای دوباره";
+"Full Disk Access" = "دسترسی کامل به دیسک";
+"Open Privacy Settings" = "باز کردن تنظیمات حریم خصوصی";
