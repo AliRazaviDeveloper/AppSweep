@@ -2,12 +2,15 @@
 
 <img src="docs/icon.png" width="128" alt="AppSweep icon">
 
-# AppSweep
+# AppSweep — Free Mac App Uninstaller & Cleaner
 
-**Uninstall apps completely. Reclaim your disk space.**
+**Uninstall Mac apps completely. Clear caches. Reclaim your disk space.**
 
-A beautiful, native app cleaner for macOS — remove apps along with every file they leave behind,
-clear caches, and find leftovers from apps you deleted long ago.
+AppSweep is a **free and open-source app uninstaller and cache cleaner for macOS**. It removes apps along with
+every file they leave behind, clears caches and logs, and finds leftovers from apps you deleted long ago —
+a free, open-source alternative to paid Mac cleaners.
+
+**🌐 [alirazavideveloper.github.io/AppSweep](https://alirazavideveloper.github.io/AppSweep/)**
 
 [![Download for macOS](https://img.shields.io/badge/Download-macOS-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/AliRazaviDeveloper/AppSweep/releases/latest/download/AppSweep.dmg)
 [![Windows — coming soon](https://img.shields.io/badge/Windows-Coming%20Soon-555555?style=for-the-badge&logo=windows&logoColor=white)](#-platforms)
@@ -20,11 +23,11 @@ clear caches, and find leftovers from apps you deleted long ago.
 ![Swift](https://img.shields.io/badge/Swift-SwiftUI-F05138?style=flat-square&logo=swift&logoColor=white)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
-[English](README.md) · [فارسی](README.fa.md)
+[Website](https://alirazavideveloper.github.io/AppSweep/) · [English](README.md) · [فارسی](README.fa.md)
 
 <br>
 
-<img src="docs/screenshots/overview.png" width="860" alt="AppSweep overview">
+<img src="docs/screenshots/applications.png" width="860" alt="AppSweep — uninstall Mac apps with all their leftover files">
 
 </div>
 
@@ -118,6 +121,39 @@ macOS hides some app data (such as sandboxed containers) from other apps. For th
 **System Settings → Privacy & Security → Full Disk Access**, click **+** and add AppSweep.
 AppSweep shows a shortcut to this screen when access is missing.
 
+</details>
+
+## ❓ FAQ
+
+<details>
+<summary><b>How do I completely uninstall an app on Mac?</b></summary>
+
+Dragging an app to the Trash leaves its caches, preferences, containers and logs behind in `~/Library`.
+In AppSweep, select the app, review the related files it found and click **Uninstall** — the app and all its files go to the Trash together.
+</details>
+
+<details>
+<summary><b>How do I clear cache on a Mac?</b></summary>
+
+Open **Cache Cleaner**, select the app caches, logs or developer caches (like Xcode DerivedData) you want to remove and click **Clean**. Apps rebuild their caches automatically.
+</details>
+
+<details>
+<summary><b>Is AppSweep a free alternative to CleanMyMac or AppCleaner?</b></summary>
+
+AppSweep covers the most common uses of those tools — uninstalling apps with their leftovers and cleaning caches — for free, and its source code is public so anyone can see exactly what it does.
+</details>
+
+<details>
+<summary><b>Does it work on Apple Silicon (M1–M4)?</b></summary>
+
+Yes. AppSweep is a universal app for Apple Silicon and Intel Macs running macOS 14 Sonoma or later.
+</details>
+
+<details>
+<summary><b>Is there a Windows or Linux version?</b></summary>
+
+Both are coming soon — ⭐ star or watch this repository to be notified.
 </details>
 
 ## 🔒 Privacy

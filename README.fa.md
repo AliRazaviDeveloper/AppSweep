@@ -2,7 +2,7 @@
 
 <img src="docs/icon.png" width="128" alt="AppSweep">
 
-# AppSweep
+# AppSweep — حذف کامل برنامه در مک و پاک کردن کش
 
 **برنامه‌ها را کامل حذف کنید. فضای دیسک را پس بگیرید.**
 
@@ -13,7 +13,7 @@
 [![ویندوز — به‌زودی](https://img.shields.io/badge/Windows-Coming%20Soon-555555?style=for-the-badge&logo=windows&logoColor=white)](#پلتفرم‌ها)
 [![لینوکس — به‌زودی](https://img.shields.io/badge/Linux-Coming%20Soon-555555?style=for-the-badge&logo=linux&logoColor=white)](#پلتفرم‌ها)
 
-[English](README.md) · [فارسی](README.fa.md)
+[وب‌سایت](https://alirazavideveloper.github.io/AppSweep/fa/) · [English](README.md) · [فارسی](README.fa.md)
 
 <br>
 

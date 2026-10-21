@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>AppSweep — Free Mac App Uninstaller &amp; Cache Cleaner (Open Source)</title>
+  <meta name="description" content="AppSweep is a free, open-source app uninstaller and cleaner for macOS. Completely remove Mac apps with all their leftover files, clear caches and logs, and free up disk space. A free alternative to CleanMyMac and AppCleaner.">
+  <meta name="keywords" content="mac uninstaller, uninstall apps mac, app cleaner mac, free mac cleaner, remove leftover files mac, clear cache mac, cleanmymac alternative, appcleaner alternative, open source mac cleaner, macos uninstaller, delete apps completely mac">
+  <meta name="author" content="Ali Razavi">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://alirazavideveloper.github.io/AppSweep/">
+  <link rel="alternate" hreflang="en" href="https://alirazavideveloper.github.io/AppSweep/">
+  <link rel="alternate" hreflang="fa" href="https://alirazavideveloper.github.io/AppSweep/fa/">
+  <link rel="alternate" hreflang="x-default" href="https://alirazavideveloper.github.io/AppSweep/">
+  <link rel="icon" type="image/png" href="icon.png">
+  <link rel="apple-touch-icon" href="icon.png">
+  <meta name="theme-color" content="#735cfa">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="AppSweep">
+  <meta property="og:title" content="AppSweep — Free Mac App Uninstaller & Cache Cleaner">
+  <meta property="og:description" content="Completely remove Mac apps with all their leftover files, clear caches and free up disk space. Free and open source.">
+  <meta property="og:url" content="https://alirazavideveloper.github.io/AppSweep/">
+  <meta property="og:image" content="https://alirazavideveloper.github.io/AppSweep/og-image.png">
+  <meta property="og:image:width" content="1280">
+  <meta property="og:image:height" content="640">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AppSweep — Free Mac App Uninstaller & Cache Cleaner">
+  <meta name="twitter:description" content="Completely remove Mac apps with all their leftover files, clear caches and free up disk space. Free and open source.">
+  <meta name="twitter:image" content="https://alirazavideveloper.github.io/AppSweep/og-image.png">
+
+  <link rel="stylesheet" href="assets/site.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "AppSweep",
+    "alternateName": "AppSweep for Mac",
+    "description": "Free, open-source app uninstaller and cache cleaner for macOS. Removes apps together with their caches, preferences, containers, logs and other leftover files.",
+    "applicationCategory": "UtilitiesApplication",
+    "applicationSubCategory": "Uninstaller",
+    "operatingSystem": "macOS 14 or later",
+    "softwareVersion": "1.0.0",
+    "url": "https://alirazavideveloper.github.io/AppSweep/",
+    "downloadUrl": "https://github.com/AliRazaviDeveloper/AppSweep/releases/latest/download/AppSweep.dmg",
+    "installUrl": "https://github.com/AliRazaviDeveloper/AppSweep/releases/latest",
+    "image": "https://alirazavideveloper.github.io/AppSweep/og-image.png",
+    "screenshot": "https://alirazavideveloper.github.io/AppSweep/screenshots/applications.png",
+    "license": "https://opensource.org/licenses/MIT",
+    "isAccessibleForFree": true,
+    "inLanguage": ["en", "fa"],
+    "featureList": [
+      "Completely uninstall Mac apps with all related files",
+      "Reset apps by removing their data and settings",
+      "Clean app caches, logs and developer junk",
+      "Find leftover files from deleted apps",
+      "Disk usage overview",
+      "Moves files to the Trash so they can be restored"
+    ],
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    "author": { "@type": "Person", "name": "Ali Razavi", "url": "https://github.com/AliRazaviDeveloper" },
+    "codeRepository": "https://github.com/AliRazaviDeveloper/AppSweep"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How do I completely uninstall an app on Mac?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Dragging an app to the Trash leaves its caches, preferences, containers and logs behind in ~/Library. AppSweep finds all of these files for the selected app and moves them to the Trash together with the app, so it is removed completely." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is AppSweep free?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. AppSweep is completely free and open source under the MIT license, with no subscriptions, ads or in-app purchases." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is AppSweep a free alternative to CleanMyMac or AppCleaner?",
+        "acceptedAnswer": { "@type": "Answer", "text": "AppSweep covers the most common uses of those tools — uninstalling apps with their leftovers and cleaning caches — for free, and its source code is public so anyone can see exactly what it does." }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I clear cache on a Mac?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Open AppSweep, go to Cache Cleaner, select the app caches, logs or developer caches (such as Xcode DerivedData) you want to remove, and click Clean. Apps rebuild their caches automatically when needed." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is it safe to use AppSweep?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Everything is moved to the Trash by default so it can be restored, running apps are quit first, and macOS system apps are protected. AppSweep works fully offline and collects no data." }
+      },
+      {
+        "@type": "Question",
+        "name": "Does AppSweep work on Apple Silicon (M1, M2, M3, M4)?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. AppSweep is a universal app that runs natively on Apple Silicon and Intel Macs with macOS 14 Sonoma or later." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is AppSweep available for Windows or Linux?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Windows and Linux versions are coming soon. Watch the GitHub repository's releases to be notified." }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="icon.png" alt="" width="30" height="30">AppSweep</a>
+    <div class="nav-links">
+      <a class="hide-sm" href="#features">Features</a>
+      <a class="hide-sm" href="#faq">FAQ</a>
+      <a href="fa/" hreflang="fa" lang="fa">فارسی</a>
+      <a class="btn btn-small" href="https://github.com/AliRazaviDeveloper/AppSweep">GitHub</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <img class="hero-icon" src="icon.png" alt="AppSweep app icon" width="112" height="112">
+    <span class="eyebrow">Free · Open source · No ads · No tracking</span>
+    <h1>The free <span class="grad">Mac app uninstaller</span><br>and cache cleaner</h1>
+    <p class="lead">Dragging an app to the Trash leaves gigabytes behind. AppSweep removes Mac apps <strong>completely</strong> — with every cache, preference and leftover file — and helps you reclaim disk space in seconds.</p>
+    <div class="cta">
+      <a class="btn btn-primary" href="https://github.com/AliRazaviDeveloper/AppSweep/releases/latest/download/AppSweep.dmg">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.37 12.6c-.02-2.3 1.88-3.4 1.96-3.46-1.07-1.56-2.73-1.78-3.32-1.8-1.41-.14-2.76.83-3.47.83-.72 0-1.82-.81-2.99-.79-1.54.02-2.96.9-3.75 2.27-1.6 2.78-.41 6.88 1.15 9.13.76 1.1 1.67 2.34 2.86 2.3 1.15-.05 1.58-.74 2.97-.74 1.38 0 1.77.74 2.98.72 1.24-.02 2.02-1.12 2.77-2.23.88-1.28 1.24-2.52 1.26-2.59-.03-.01-2.4-.92-2.42-3.65zM14.1 5.86c.63-.77 1.06-1.83.94-2.89-.91.04-2.02.61-2.67 1.37-.58.67-1.09 1.76-.96 2.8 1.02.08 2.06-.52 2.69-1.28z"/></svg>
+        Download for macOS
+      </a>
+      <a class="btn" href="https://github.com/AliRazaviDeveloper/AppSweep">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.68 0-1.26.45-2.28 1.19-3.08-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.82 1.19 3.08 0 4.41-2.7 5.38-5.26 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg>
+        View on GitHub
+      </a>
+    </div>
+    <p class="meta">Version 1.0.0 · macOS 14 Sonoma or later · Apple Silicon &amp; Intel · 2 MB</p>
+
+    <div class="cmd" aria-label="One-line install command">
+      <code id="install-cmd">curl -fsSL https://raw.githubusercontent.com/AliRazaviDeveloper/AppSweep/main/install.sh | bash</code>
+      <button type="button" data-copy="install-cmd">Copy</button>
+    </div>
+
+    <img class="shot" src="screenshots/applications.png" alt="AppSweep uninstalling a Mac app together with all its related files" width="1400" height="736">
+  </div>
+</header>
+
+<section id="features" class="soft">
+  <div class="wrap">
+    <h2>Everything you need to keep your Mac clean</h2>
+    <p class="sub">A native, lightweight SwiftUI app — fast, beautiful and built for macOS.</p>
+    <div class="grid">
+      <article class="card"><div class="ic">🗑</div><h3>Uninstall apps completely</h3><p>Finds everything an app stored — Application Support, Caches, Preferences, Containers, Logs, Cookies, Launch Agents — and removes it with the app.</p></article>
+      <article class="card"><div class="ic">✨</div><h3>Clear caches on Mac</h3><p>Clean app caches, logs and developer junk such as Xcode DerivedData, simulator caches, npm and Gradle caches.</p></article>
+      <article class="card"><div class="ic">📦</div><h3>Find leftover files</h3><p>Discover data left behind by apps you deleted long ago, grouped by app, and remove it in one click.</p></article>
+      <article class="card"><div class="ic">🔄</div><h3>Reset any app</h3><p>Keep the app but wipe its settings and data to fix glitches or start fresh.</p></article>
+      <article class="card"><div class="ic">🛡</div><h3>Safe by default</h3><p>Files go to the Trash and can be restored. Running apps are quit first and macOS system apps are protected.</p></article>
+      <article class="card"><div class="ic">🔒</div><h3>Private &amp; offline</h3><p>No internet access, no analytics, no account. Nothing you scan ever leaves your Mac.</p></article>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>See it in action</h2>
+    <p class="sub">Uninstall, clean and find leftovers — in English or Persian.</p>
+    <div class="gallery">
+      
+      <figure><img src="screenshots/cache-cleaner.png" alt="AppSweep cache cleaner removing app caches on macOS" loading="lazy"><figcaption>Clean caches &amp; developer junk</figcaption></figure>
+      <figure><img src="screenshots/leftovers.png" alt="AppSweep finding leftover files from deleted Mac apps" loading="lazy"><figcaption>Find leftovers of deleted apps</figcaption></figure>
+      <figure><img src="screenshots/overview-fa.png" alt="AppSweep Persian right-to-left interface" loading="lazy"><figcaption>Native right-to-left Persian UI</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="soft">
+  <div class="wrap">
+    <h2>Drag to Trash vs. AppSweep</h2>
+    <p class="sub">What actually gets removed when you delete an app.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Removed</th><th>Drag to Trash</th><th>AppSweep</th></tr></thead>
+        <tbody>
+          <tr><td>The app itself</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+          <tr><td>Caches</td><td class="no">✗</td><td class="yes">✓</td></tr>
+          <tr><td>Preferences &amp; settings</td><td class="no">✗</td><td class="yes">✓</td></tr>
+          <tr><td>Application Support data</td><td class="no">✗</td><td class="yes">✓</td></tr>
+          <tr><td>Sandbox containers</td><td class="no">✗</td><td class="yes">✓</td></tr>
+          <tr><td>Logs, cookies &amp; saved state</td><td class="no">✗</td><td class="yes">✓</td></tr>
+          <tr><td>Launch agents &amp; helpers</td><td class="no">✗</td><td class="yes">✓</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="download">
+  <div class="wrap">
+    <h2>Download AppSweep</h2>
+    <p class="sub">Free forever. Windows and Linux versions are on the way.</p>
+    <div class="platforms">
+      <div class="card platform"><div class="os"></div><h3>macOS</h3><span class="badge ok">Available</span><br><a class="btn btn-primary btn-small" href="https://github.com/AliRazaviDeveloper/AppSweep/releases/latest/download/AppSweep.dmg">Download .dmg</a></div>
+      <div class="card platform"><div class="os">⊞</div><h3>Windows</h3><span class="badge soon">Coming soon</span><br><a class="btn btn-small" href="https://github.com/AliRazaviDeveloper/AppSweep/subscription">Get notified</a></div>
+      <div class="card platform"><div class="os">🐧</div><h3>Linux</h3><span class="badge soon">Coming soon</span><br><a class="btn btn-small" href="https://github.com/AliRazaviDeveloper/AppSweep/subscription">Get notified</a></div>
+    </div>
+  </div>
+</section>
+
+<section id="faq" class="soft">
+  <div class="wrap">
+    <h2>Frequently asked questions</h2>
+    <p class="sub">&nbsp;</p>
+    <div class="faq">
+      <details open><summary>How do I completely uninstall an app on Mac?</summary><p>Dragging an app to the Trash leaves its caches, preferences, containers and logs behind in <code>~/Library</code>. Open AppSweep, select the app, review the related files it found and click <strong>Uninstall</strong> — the app and all its files move to the Trash together.</p></details>
+      <details><summary>Is AppSweep free?</summary><p>Yes — completely free and open source under the MIT license. No subscriptions, ads or in-app purchases.</p></details>
+      <details><summary>Is AppSweep a free alternative to CleanMyMac or AppCleaner?</summary><p>AppSweep covers the most common uses of those tools — uninstalling apps with their leftovers and cleaning caches — for free, and its source code is public so anyone can see exactly what it does.</p></details>
+      <details><summary>How do I clear cache on a Mac?</summary><p>Open AppSweep → <strong>Cache Cleaner</strong>, select the app caches, logs or developer caches (like Xcode DerivedData) you want to remove, and click <strong>Clean</strong>. Apps rebuild their caches automatically when needed.</p></details>
+      <details><summary>Is it safe?</summary><p>Yes. Everything goes to the Trash by default so it can be restored, running apps are quit first, and macOS system apps are protected. AppSweep works fully offline and collects no data.</p></details>
+      <details><summary>macOS says “Apple could not verify AppSweep”. What do I do?</summary><p>AppSweep isn't notarized by Apple yet. Use the one-line installer above, or after installing the DMG run <code>xattr -dr com.apple.quarantine /Applications/AppSweep.app</code> once — or click <strong>Open Anyway</strong> in System Settings → Privacy &amp; Security.</p></details>
+      <details><summary>Does it work on Apple Silicon (M1–M4) and Intel?</summary><p>Yes. AppSweep is a universal app for Apple Silicon and Intel Macs running macOS 14 Sonoma or later.</p></details>
+      <details><summary>Is there a Windows or Linux version?</summary><p>Both are coming soon. <a href="https://github.com/AliRazaviDeveloper/AppSweep">Star or watch the repository</a> to be notified when they're released.</p></details>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Ali Razavi · AppSweep is free and open source (MIT)</span>
+    <span><a href="https://github.com/AliRazaviDeveloper/AppSweep">GitHub</a> · <a href="https://github.com/AliRazaviDeveloper/AppSweep/releases">Releases</a> · <a href="https://github.com/AliRazaviDeveloper/AppSweep/issues">Report an issue</a> · <a href="fa/" lang="fa">فارسی</a></span>
+  </div>
+</footer>
+
+<script>
+  document.querySelectorAll('[data-copy]').forEach(function (button) {
+    button.addEventListener('click', function () {
+      var text = document.getElementById(button.dataset.copy).textContent;
+      navigator.clipboard.writeText(text).then(function () {
+        var label = button.textContent;
+        button.textContent = button.dataset.done || 'Copied!';
+        setTimeout(function () { button.textContent = label; }, 1600);
+      });
+    });
+  });
+</script>
+</body>
+</html>
